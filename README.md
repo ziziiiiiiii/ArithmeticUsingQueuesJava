@@ -1,0 +1,3 @@
+This project was made for CS 112, Fundamentals of Programming 2, at Allan Hancock College. It is written in Java. It takes input from the user on arithmetic operations they wish to perform in the form of strings. The program parses these strings into arithmetic operators and numbers, and places each in a queue before processing them sequentially.
+
+Operations must be typed in in prefix form (ex: +56, which equals 11).It is incapable of processing division. It does not solve accurately with regards to PEMDAS, as multiplication is not prioritized over addition or subtraction. Everything is processed as it is read in.
