@@ -1,8 +1,9 @@
 // This program reads through user input of desired arithmetic operations in the form of a string.
 // It parses that string into arithmetic operators and numbers, adds each to a queue, then operates
-// on everything by reading from that queue sequentially. It is incapable of processing division. It
-// does not solve accurately with regards to PEMDAS, as multiplication is not prioritized over addition
-// or subtraction. Everything is processed as it is read in.
+// on everything by reading from that queue sequentially. Operations must be typed in in prefix form
+// (ex: +56, which equals 11). It is incapable of processing division. It does not solve accurately with
+// regards to PEMDAS, as multiplication is not prioritized over addition or subtraction. Everything is
+// processed as it is read in.
 
 import java.util.*;
 
